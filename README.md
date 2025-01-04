@@ -33,7 +33,7 @@ Set these environment variables in your terminal or include them in a `.env` fil
 
 ## Basic LangChain Example
 
-**File**: `basic_langchain.py`
+File: basic_langchain.py
 
 This script demonstrates how to use LangChain with OpenAI for simple tasks like text translation. 
 
