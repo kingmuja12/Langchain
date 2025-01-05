@@ -42,4 +42,4 @@ chain = SequentialChain(
     output_variables = ['music_type', "country", "musician_names"], ####this is what you want it to print out as the final code 
     input_variables = ['music_type'] ### this the parameter that you will pass in to it for excussion purpose 
 )
-# print(chain({"music_type": "Afro beat"}))
+print(chain({"music_type": "Afro beat"}))
