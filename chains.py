@@ -18,8 +18,8 @@ print(response)
 ## Second way:
 prompt2 = PromptTemplate.from_template("Suggest some menu items for {restaurant_name}") 
 chain = LLMChain(llm = llm, prompt = prompt2)
-# response1= chain.run("restaurant_nam")
-# print(response1)
+response1= chain.run("restaurant_nam")
+print(response1)
 
 ############## Combine chain method ############
 prompt = PromptTemplate(
