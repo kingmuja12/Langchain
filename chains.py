@@ -13,7 +13,7 @@ prompt = PromptTemplate(
 )
 name_chain = LLMChain(llm = llm, prompt = prompt)
 response= name_chain.run("restaurant_name")
-# print(response)
+print(response)
 
 ## Second way:
 prompt2 = PromptTemplate.from_template("Suggest some menu items for {restaurant_name}") 
