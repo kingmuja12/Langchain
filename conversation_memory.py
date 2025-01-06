@@ -1,4 +1,5 @@
-################# Memory: Utilizes a type of conversational memory that retains information based on the specified amount. ##############
+################# Memory (Utilizes a type of conversational memory that retains information based on the specified amount.) ##############
+
 from langchain.chains import ConversationChain
 from langchain.memory import ConversationBufferWindowMemory
 from langchain_openai import OpenAI
