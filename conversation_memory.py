@@ -1,4 +1,4 @@
-################# Memory (using the type of conversation memory where by it can remember the amount of information you spicify) ##############
+################# Memory: Utilizes a type of conversational memory that retains information based on the specified amount. ##############
 from langchain.chains import ConversationChain
 from langchain.memory import ConversationBufferWindowMemory
 from langchain_openai import OpenAI
