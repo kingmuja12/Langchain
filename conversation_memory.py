@@ -10,5 +10,7 @@ convo = ConversationChain(
     llm=OpenAI(temperature=0.7),
     memory=memory
 )
+
+# use case 
 convo.invoke("my name is Abdulmujeeb and i am the CTO of DYNAI")
 #print(convo.invoke("who is the CTO of DYNAI")["response"]) ### this prints out the response
