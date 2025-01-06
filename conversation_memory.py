@@ -15,4 +15,5 @@ convo = ConversationChain(
 # to enable continuous conversations.
 # Note: Since k = 15, the system is designed to retain memory of only the last 15 messages.
 convo.invoke("my name is Abdulmujeeb and i am the CTO of DYNAI")
-#print(convo.invoke("who is the CTO of DYNAI")["response"]) ### this prints out the response
+
+print(convo.invoke("who is the CTO of DYNAI")["response"]) ### this prints out the response
