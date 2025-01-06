@@ -12,5 +12,6 @@ convo = ConversationChain(
 )
 
 # use case this could also be in the form of a while loop in other to have continues conversation.
+# Note since k = 15 it can only remember the last 15 chat 
 convo.invoke("my name is Abdulmujeeb and i am the CTO of DYNAI")
 #print(convo.invoke("who is the CTO of DYNAI")["response"]) ### this prints out the response
