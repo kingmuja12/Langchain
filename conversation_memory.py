@@ -11,6 +11,6 @@ convo = ConversationChain(
     memory=memory
 )
 
-# use case this could also be in the form of a while loop in other to have continues conversation 
+# use case this could also be in the form of a while loop in other to have continues conversation.
 convo.invoke("my name is Abdulmujeeb and i am the CTO of DYNAI")
 #print(convo.invoke("who is the CTO of DYNAI")["response"]) ### this prints out the response
