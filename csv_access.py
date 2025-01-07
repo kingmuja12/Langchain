@@ -9,7 +9,7 @@ import os
 os.environ['OPENAI_API_KEY'] = "Put your API key here "
 url = "https://raw.githubusercontent.com/sudarshan-koirala/Logistic-Regression-for-Titanic-Dataset/master/Train_Titanic.csv"
 df = pd.read_csv(url)
-# print(df.shape)
+print(df.shape)
 print(df.columns.tolist())
 # print(df.head())
 
