@@ -29,3 +29,5 @@ agent_executor = create_sql_agent(llm, db=db, agent_type="openai-tools", verbose
 Input = agent_executor.invoke({"input": "How many people have more than 3 siblings"})
 
 Output = Input["output"]
+
+print(Output)
