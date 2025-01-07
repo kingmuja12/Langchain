@@ -6,7 +6,7 @@ import pandas as pd
 url = "https://Add your URL link here"
 df = pd.read_csv(url)
 print(df.shape)
-# print(df.columns.tolist())
+print(df.columns.tolist())
 # print(df.head())
 
 ## Now we want our agent to be able to access our csv file
