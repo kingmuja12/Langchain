@@ -11,7 +11,7 @@ url = "https://raw.githubusercontent.com/sudarshan-koirala/Logistic-Regression-f
 df = pd.read_csv(url)
 print(df.shape)
 print(df.columns.tolist())
-# print(df.head())
+print(df.head())
 
 ## Now we want our agent to be able to access our csv file
 from langchain_community.utilities import SQLDatabase
