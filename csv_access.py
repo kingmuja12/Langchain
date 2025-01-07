@@ -3,7 +3,7 @@
 
 
 import pandas as pd
-url = "https://raw.githubusercontent.com/sudarshan-koirala/Logistic-Regression-for-Titanic-Dataset/master/Train_Titanic.csv"
+url = "https://Add your URL link here"
 df = pd.read_csv(url)
 # print(df.shape)
 # print(df.columns.tolist())
